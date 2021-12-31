@@ -1,0 +1,16 @@
+
+/* sign up content*/
+.logindialog {
+    height: 100%;
+    text-align: center;
+}
+.fields {
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    border: none;
+    padding: 20px;
+    background-color: #b5c4b1;
+    align-content: center;
+}

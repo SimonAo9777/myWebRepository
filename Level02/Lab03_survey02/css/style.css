@@ -1,0 +1,22 @@
+/*Set format of text align center*/
+* {
+    text-align: center;
+}
+/*Set format of the span.row*/
+span.row{
+    display: block;
+    margin:25px 0px;
+}
+/*Set format of the label*/
+label{
+    display: block;
+    font-weight: bold;
+}
+/*Set format of the input box,select*/
+input,select{
+    width: 250px;
+}
+/*Set format of input: reset,submit */
+input[type='reset'], input[type='submit']{
+    width: 125px;   
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 3 - CSS 1</title>
+    <link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+    <h1>Survey</h1>
+    <form>
+        <span class="row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name..">
+        </span>
+        <span class="row">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+        </span>
+        <span class="row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email..">
+        </span>
+        <span class="row">
+            <label for="city">City</label>
+            <input type="city" id="city" name="city" placeholder="Ottawa">
+        </span>
+        <span class="row">
+            <label for="province">Province</label>
+            <select id="province" name="province">
+                <option>Please Select..</option>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="YT">Yukon</option>
+            </select>
+        </span>
+        <span class="row">
+            <input type="reset" id="reset" name="reset">
+            <input type="submit" id="submit" name="submit">
+        </span>
+    </form>
+</body>
+</html>

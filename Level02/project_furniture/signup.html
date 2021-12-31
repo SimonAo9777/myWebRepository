@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>S&L Furniture</title>
+        <!--Setting the character set-->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="S&L, Furniture, Sofa">
+        <meta name="author" content="Simon & Laura">
+        <!--Setting the viewport to make your website look good on all devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--link to the fronts-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./fa/css/all.css">
+        <link rel="stylesheet" href="css/signup.css">
+        <link rel="stylesheet" href="css/topandfooter.css">
+        <script type="text/javascript" src="js/topmenu.js"></script>
+        <script type="text/javascript" src="js/signup.js"></script>
+    </head>
+    
+    <body onload="pageOnLoad();">
+        <header>
+            <h4>Your dream furniture!</h4>
+        </header>
+
+        <div class="row">
+            <!-- LOGO -->
+            <div class="col-2">	
+                <div class="logoimg">
+                    <a href="homepage.html"><img src="imgs/logo.jpg" alt="logo"></a>
+                </div>
+            </div><br><br>
+            <!-- search bar-->
+            <div class="col-8">
+                <form id="searchform" class="search" action="furnituresearch.html">
+                    <input id="searcharea" class="searcharea" type="text" id="search" name="text" placeholder="Search..">
+                    <input id="searchbtn" class="searchbtn" type="submit" name="submit" value="SEARCH">
+                </form>
+            </div>
+            <!-- login-->
+            <div class="col-1">
+                <button class="loginbtn">Sign Up</button>
+                <div class="login-content">
+                    <a href="signup.html">Login</a>
+                    <a href="#">Register</a>
+                </div>
+            </div>
+        	<div class="col-1">
+                <a href="shoppingcart.html"><i class="fa fa-shopping-cart" style="font-size: 40px;"></i></a>
+            </div>
+        </div>
+
+        <!--Menu-->
+        <div id="menubutton">
+        </div>
+        
+
+        <!--sign up content-->
+        <div class="logindialog">
+            <form method="get" action="login.php">
+                <div class="fields">
+                    <h4> Login</h4>
+                    <label for="account"> Username or Email Address</label><br>
+                    <input type="text" id="account" name="account">
+                    <br>
+                    <label for="passWord"> Password</label><br>
+                    <input type="password" id="password" name="password">
+                    <br><br>
+                    <button type="button"> Log In</button>
+                    <br><br>
+                    <a href="#"><p>Lost your password?</p></a>
+                    <a href="#"><p>Don't have an account yet. Sign up for a new one!</p></a>
+                </div>
+            </form>
+        </div>
+        <!-- footer-->
+        <footer>
+            <nav>
+                <a href="#">Contact Us</a> |
+                <a href="#">Find a store</a> |
+                <a href="#">Customer Service</a> |
+                <a href="#">About Us</a>
+            </nav>
+        </footer>
+                    
+    </body>
+    
+</html>
+	
+			
+	
+	
+	
